@@ -519,4 +519,14 @@ document.getElementById("add-kit-btn").addEventListener("click", () => openKitMo
 document.getElementById("kit-cancel-btn").addEventListener("click", closeKitModal);
 document.getElementById("kit-save-btn").addEventListener("click", saveKitFromModal);
 
+// Tab Toolkits / About — chuyển panel hiển thị, không tải lại gì cả.
+document.querySelectorAll(".tab-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+    document.querySelectorAll(".tab-panel").forEach((p) => p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById(`tab-${btn.dataset.tab}`).classList.add("active");
+  });
+});
+
 init();

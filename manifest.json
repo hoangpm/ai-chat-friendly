@@ -9,6 +9,24 @@
     "storage",
     "identity"
   ],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://*.chatgpt.com/*",
+    "https://chat.openai.com/*",
+    "https://claude.ai/*",
+    "https://*.claude.ai/*",
+    "https://chat.qwen.ai/*",
+    "https://chat.deepseek.com/*",
+    "https://chat.z.ai/*",
+    "https://gemini.google.com/*",
+    "https://grok.com/*",
+    "https://*.grok.com/*",
+    "https://kimi.ai/*",
+    "https://*.kimi.ai/*",
+    "https://manus.im/*",
+    "https://meta.ai/*",
+    "https://*.meta.ai/*"
+  ],
   "action": {
     "default_title": "AI Chat Friendly",
     "default_icon": {
