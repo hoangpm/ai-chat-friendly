@@ -11,4 +11,4 @@
 // tài khoản Supabase mới dùng được extension.
 
 const AICF_SUPABASE_URL = "https://nxvogltxjgrqrbeejklv.supabase.co";
-const AICF_SUPABASE_ANON_KEY = "sb_publishable_SaVi-KIvY7OB3Me3mE_aUw_M3Mz1WXt";
+const AICF_SUPABASE_ANON_KEY = "sb_publishable_***";
