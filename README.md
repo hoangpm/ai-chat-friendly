@@ -50,25 +50,6 @@ Mọi tên file (base name khai báo trong Tool, ví dụ `1-summary.docx`) đ�
 Ví dụ hội thoại "Giải pháp cho OPC" trên chatgpt.com, Tool "Summary" →
 file cuối cùng: `giai-phap-cho-opc-chatgpt.com_1-summary.docx`.
 
-## Vì sao Kit gộp thành 1 tin nhắn thay vì chạy tuần tự từng Tool?
-
-Bản trước (không có Kit) đã cho thấy rõ: việc "chờ đúng lúc 1 lượt trả lời
-kết thúc" là phần dễ lỗi nhất trong toàn bộ hệ thống (timing, ảo hoá DOM,
-trang tự cuộn...). Chạy N Tool tuần tự nghĩa là chịu rủi ro đó N lần. Gộp
-prompt của cả Kit thành 1 tin nhắn dạng:
-
-> Hãy thực hiện các lệnh sau, lần lượt theo đúng thứ tự: 1- \<prompt Tool
-> 1\>; 2- \<prompt Tool 2\>; ...
-
-— chỉ cần gửi 1 lần, chờ 1 lần, rồi tìm NHIỀU file trong CÙNG 1 câu trả
-lời (phân biệt file nào của Tool nào qua đuôi file mong đợi của từng
-Tool). Đơn giản và chắc chắn hơn hẳn.
-
-**Đánh đổi:** phụ thuộc vào việc AI có thực sự làm đúng và đủ N lệnh
-trong 1 lượt trả lời hay không — với hội thoại phức tạp/nhiều bước, AI có
-thể bỏ sót 1 lệnh nào đó. Bước tải sẽ báo rõ tải được bao nhiêu / mong đợi
-bao nhiêu file (ví dụ "Downloaded 2/3 files") thay vì báo lỗi mơ hồ.
-
 ## Nền tảng hỗ trợ
 
 Kế thừa nguyên vẹn từ bản "AI Chat Summarizer & File Downloader": ChatGPT,
