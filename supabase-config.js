@@ -10,5 +10,5 @@
 // chrome.storage.sync) vẫn hoạt động bình thường, không bắt buộc phải có
 // tài khoản Supabase mới dùng được extension.
 
-const AICF_SUPABASE_URL = "https://nxvogltxjgrqrbeejklv.supabase.co";
+const AICF_SUPABASE_URL = "https://***.supabase.co";
 const AICF_SUPABASE_ANON_KEY = "sb_publishable_***";
