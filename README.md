@@ -52,9 +52,6 @@ file cuối cùng: `giai-phap-cho-opc-chatgpt.com_1-summary.docx`.
 
 ## Nền tảng hỗ trợ
 
-Kế thừa nguyên vẹn từ bản "AI Chat Summarizer & File Downloader": ChatGPT,
-Claude, Gemini, Grok, DeepSeek, Qwen, Z.ai, Kimi, Manus, Meta AI — toàn bộ
-selector đã kiểm chứng qua MHTML thật/test trực tiếp giữ nguyên không đổi,
-chỉ thay đổi phần kiến trúc Tool/Kit và giao diện.
+ChatGPT, Claude, Gemini, Grok, DeepSeek, Qwen, Z.ai, Kimi, Manus, Meta AI.
 
 
