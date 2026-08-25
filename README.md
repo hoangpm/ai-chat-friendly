@@ -2,8 +2,7 @@
 
 Extension Chrome cho phép tự cấu hình các **Tool** (1 prompt, chủ yếu để
 trích/lưu thông tin từ 1 thread AI chat ra file) và gộp nhiều Tool thành
-**Kit** (chạy gộp thành 1 tin nhắn, tải nhiều file cùng lúc). Đặt tên nhại
-theo PrintFriendly — cùng tinh thần "1 nút bấm, chọn cách xuất, xong".
+**Kit** (chạy gộp thành 1 tin nhắn, tải nhiều file cùng lúc)".
 
 ## Cài đặt
 
@@ -47,8 +46,8 @@ Mọi tên file (base name khai báo trong Tool, ví dụ `1-summary.docx`) đ�
 <tên-hội-thoại-đã-bỏ-dấu-nối-gạch>-<domain>_<tên-file-gốc>
 ```
 
-Ví dụ hội thoại "Giải pháp cho OPC" trên chatgpt.com, Tool "Summary" →
-file cuối cùng: `giai-phap-cho-opc-chatgpt.com_1-summary.docx`.
+Ví dụ hội thoại "Giải pháp cho AI Chat Friendly" trên chatgpt.com, Tool "Summary" →
+file cuối cùng: `giai-phap-cho-opc-ai-chat-friendly_chatgpt.com_1-summary.docx`.
 
 ## Nền tảng hỗ trợ
 
